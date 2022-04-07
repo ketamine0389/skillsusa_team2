@@ -1,0 +1,57 @@
+{
+    "flavors": {
+        "standard": {
+            "0": {
+                "Name": "Dark Side of the Moon",
+                "Description": "Chocolate"
+            },
+            "1": {
+                "Name": "Light Side of Moon",
+                "Description": "Vanilla"
+            },
+            "2": {
+                "Name": "Light Side of Moon",
+                "Description": "Vanilla"
+            },
+            "3": {
+                "Name": "Moon Glow",
+                "Description": "French Vanilla"
+            },
+            "4": {
+                "Name": "Cosmic Cream",
+                "Description": "Cookies & Cream"
+            }
+
+        },
+
+        "Featured": {
+            "0": {
+                "Name": "Moon Dirt",
+                "Description": "vanilla bean iced cream with coconut flakes, butterscotch swirls, and chocolate covered walnuts."
+            },
+            "1": {
+                "Name": "Space Candy",
+                "Description": "cotton candy flavored iced cream in a neon green to hot blue tie dye color."
+            },
+            "2": {
+                "Name": "Moon Rocks",
+                "Description": "Chocolate iced cream with marshmallows and chocolate covered almond chunks."
+            },
+            "3": {
+                "Name": "Wookie dough",
+                "Description": "cookie dough with chocolate iced cream."
+            },
+            "4": {
+                "Name": "Solar Sunburst",
+                "Description": "Tutti Fruity flavored iced cream."
+            },
+            "5": {
+                "Name": "Space Matter",
+                "Description": "cake batter flavored iced cream."
+            }
+
+
+        }
+    }
+
+}
