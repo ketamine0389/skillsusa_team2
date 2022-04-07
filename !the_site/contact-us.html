@@ -6,14 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Moon Ice</title>
-    <link rel="./resources/css/main.css">
+    <link rel="stylesheet" href="./resources/css/order.css">
+    <link rel="stylesheet" href="./resources/css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./resources/js/main.js"></script>
+
+    <script src="./resources/js/generateNavBar.js"></script>
+    <script src="./resources/js/orderForm.js"></script>
 </head>
 
-<body>
-
+<body style="background-image: url('./resources/other/nebula.svg'); background-repeat: no-repeat; background-size: cover; background-position-y: 25%;">
+    <nav id="nav-bar">
+        <div class="row">
+            <div class="column">
+                <a class="button" href="index.html">Home</a>
+            </div>
+            <div class="column">
+                <a class="button" href="flavors.html">Flavors</a>
+            </div>
+            <div class="column">
+                <a class="button active" href="contact-us.html">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <form id="orderForm" name="form">
+        <div class="form-group">
+            <label class="typeOfInput" for="firstName">First Name<span id="required">*</span></label>
+            <input id="firstName" class="form-control" type="text" name="firstName" placeholder="Jane">
+            <label class="typeOfInput" for="lastName">Last Name<span id="required">*</span></label>
+            <input id="lastName" class="form-control" type="text" name="lastName" placeholder="Doe">
+            <label class="typeOfInput" for="date">Date</label>
+            <input id="date" class="form-control" type="date" name="date">
+            <label class="typeOfInput" for="phoneNumber">Phone Number</label>
+            <input id="phoneNumber" class="form-control" type="text" name="phoneNumber" placeholder="(XXX) XXX-XXXX">
+            <label class="typeOfInput" for="emailAddress">Email Address<span id="required">*</span></label>
+            <input id="emailAddress" class="form-control" type="email" name="emailAddress" placeholder="email@aol.com">
+            <label class="typeOfInput" for="comments">Comments</label>
+            <input id="comments" class="form-control" type="text" name="comments" placeholder="Comments">
+        </div>
+        <button type="submit" class="btn btn-primary float-right" id="btnSubmit">Submit</button>
+    </form>
 </body>
 
 </html>

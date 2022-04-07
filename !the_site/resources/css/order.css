@@ -1,0 +1,8 @@
+#orderForm {
+    width: 512px;
+    margin: auto;
+    width: 60%;
+    padding: 32px;
+    padding-bottom: 56px;
+    background-color: rgba(255, 255, 255, 0.75);
+}

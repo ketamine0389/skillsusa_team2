@@ -1,0 +1,11 @@
+body {
+    background-image: url("../other/nebula.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+}
+
+.container-card {
+    margin: auto;
+    width: 35%;
+}
