@@ -1,0 +1,126 @@
+/*
+ * Init
+ */
+
+@font-face {
+    font-family: star7font;
+    src: url("../other/STAR7.ttf");
+}
+
+html,
+body {
+    min-height: 100hv;
+    min-width: 100hw;
+    font-family: star7font;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/*
+ * IDs
+ */
+
+#nav-bar {
+    width: 100%;
+}
+
+#title-card {
+    width: 100%;
+    height: 128px;
+    background-image: url("../other/nebula.svg");
+}
+
+#title-card h1 {
+    color: #ffffff;
+}
+
+#title-card
+/*
+ * Classes
+ */
+
+.column {
+    padding-left: 32px;
+    padding-right: 32px;
+    float: left;
+    width: 33.33%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo-small {
+    width: 64px;
+    height: 64px;
+}
+
+
+/* .button {} */
+
+
+/* .button .active {} */
+
+
+/*
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+*
+*
+*
+*
+*
+*
+*
+**
+/* 
+/*
+ * Nav-bar
+
+ #nav-bar {
+    margin: -10px;
+    background-color: #2f2f2f;
+    overflow: hidden;
+    height: 48px;
+}
+
+#nav-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#nav-bar a:hover {
+    background-color: #5d5d5d;
+}
+
+#active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#nav-bar #home-icon {
+    padding-left: 16px;
+    padding-right: 32px;
+    float: left;
+    width: 46px;
+    border-radius: 50%;
+    margin-top: 2px;
+} */
