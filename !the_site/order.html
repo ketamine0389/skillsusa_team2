@@ -6,14 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order | Moon Ice</title>
-    <link rel="./resources/css/main.css">
+    <link rel="stylesheet" href="./resources/css/main.css">
+    <link rel="stylesheet" href="./resources/css/order.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./resources/js/main.js"></script>
+    <script src="./resources/js/generateNavBar.js"></script>
 </head>
 
 <body>
     <div id="replaceWithNavBar"></div>
+    <form id="orderForm" name="form">
+        <label>First Name<span id="required">*</span></label>
+        <input type="text" name="firstName">
+        <label>Last Name<span id="required">*</span></label>
+        <input type="text" name="lastName">
+        <label>Date</label>
+        <input type="date" name="date">
+        <label>Phone Number</label>
+        <input type="text" name="phoneNumber">
+        <label>Email Address<span id="required">*</span></label>
+        <input type="email" name="emailAddress">
+        <labe>Comments</labe>
+        <input type="text" name="comments">
+    </form>
 </body>
 
 </html>
